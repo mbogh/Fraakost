@@ -1,0 +1,6 @@
+framework module Pods_Fraakost {
+  umbrella header "Pods-Fraakost-umbrella.h"
+
+  export *
+  module * { export * }
+}

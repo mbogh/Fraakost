@@ -1,0 +1,172 @@
+{
+    "lunches": {
+        "4DFB931D-0313-4A89-ADB1-2DC145E73052-2016-10-03": {
+            "date": "2016-10-03",
+            "canteen": "4DFB931D-0313-4A89-ADB1-2DC145E73052",
+            "meals": {
+                "hot": {
+                    "da": "Salviebraiseret kalkunoverl\u00e5r med Gnocchi og \u00e5rstidens stegte gr\u00f8ntsager"
+                },
+                "vegetarian": {
+                    "da": "Karrysuppe med kokos, urter og ris"
+                },
+                "salad": {
+                    "da": "Kik\u00e6rtesalat med r\u00f8d pesto, for\u00e5rsl\u00f8g, gr\u00f8n peber, nigellafr\u00f8 og kylling"
+                }
+            }
+        },
+        "4DFB931D-0313-4A89-ADB1-2DC145E73052-2016-10-04": {
+            "date": "2016-10-04",
+            "canteen": "4DFB931D-0313-4A89-ADB1-2DC145E73052",
+            "meals": {
+                "hot": {
+                    "da": "M\u00f8rbradb\u00f8ffer med cremet svampesauce, tagliatelle og lynstegt broccoli"
+                },
+                "vegetarian": {
+                    "da": "Linsefrikadeller med urter, timian, parmesan, samt polenta med solt\u00f8rrede tomater og bagte tomater"
+                },
+                "salad": {
+                    "da": "Tomatsalat med mozzarella, basilikum, luftt\u00f8rret skinke og r\u00f8dl\u00f8g"
+                }
+            }
+        },
+        "4DFB931D-0313-4A89-ADB1-2DC145E73052-2016-10-05": {
+            "date": "2016-10-05",
+            "canteen": "4DFB931D-0313-4A89-ADB1-2DC145E73052",
+            "meals": {
+                "hot": {
+                    "da": "Stegt fiskefilet med persillesovs, kartofler, hjemmesyltede r\u00f8dbeder"
+                },
+                "vegetarian": {
+                    "da": "Nachos med salsa, guacamole, and creme fraiche"
+                },
+                "salad": {
+                    "da": "Pastasalat med skinke, r\u00f8d peber, majs, feta og karsedressing"
+                }
+            }
+        },
+        "4DFB931D-0313-4A89-ADB1-2DC145E73052-2016-10-06": {
+            "date": "2016-10-06",
+            "canteen": "4DFB931D-0313-4A89-ADB1-2DC145E73052",
+            "meals": {
+                "hot": {
+                    "da": "Spr\u00e6ngt oksespidsbryst med saute af champignon, bacon, l\u00f8g, gr\u00f8nne b\u00f8nner, braiserede kartofler samt pebersauce"
+                },
+                "vegetarian": {
+                    "da": "Fransk l\u00f8gsuppe med ostecroutoner"
+                },
+                "salad": {
+                    "da": "Salat Nicoise med kartofler, b\u00f8nner, tun, kapers, \u00e6g og oliven"
+                }
+            }
+        },
+        "4DFB931D-0313-4A89-ADB1-2DC145E73052-2016-10-07": {
+            "date": "2016-10-07",
+            "canteen": "4DFB931D-0313-4A89-ADB1-2DC145E73052",
+            "meals": {
+                "hot": {
+                    "da": "Vildt-Pie p\u00e5 hakket dyrek\u00f8d med selleri, svampe, rosmarin samt r\u00f8dk\u00e5lssalat"
+                },
+                "vegetarian": {
+                    "da": "Efter\u00e5rs gr\u00f8nsagst\u00e6rte med comte ost"
+                },
+                "salad": {
+                    "da": "Fennikelsalat med rejer, citron, radicchio, agurk, dild og r\u00f8get laks"
+                }
+            }
+        },
+        "4DFB931D-0313-4A89-ADB1-2DC145E73052-2016-10-08": {
+            "date": "2016-10-08",
+            "canteen": "4DFB931D-0313-4A89-ADB1-2DC145E73052",
+            "meals": {
+                "hot": {
+                    "da": "Spr\u00e6ngt oksespidsbryst med saute af champignon, bacon, l\u00f8g, gr\u00f8nne b\u00f8nner, braiserede kartofler samt pebersauce"
+                },
+                "vegetarian": {
+                    "da": "Fransk l\u00f8gsuppe med ostecroutoner"
+                },
+                "salad": {
+                    "da": "Salat Nicoise med kartofler, b\u00f8nner, tun, kapers, \u00e6g og oliven"
+                }
+            }
+        },
+        "4DFB931D-0313-4A89-ADB1-2DC145E73052-2016-10-09": {
+            "date": "2016-10-09",
+            "canteen": "4DFB931D-0313-4A89-ADB1-2DC145E73052",
+            "meals": {
+                "hot": {
+                    "da": "Vildt-Pie p\u00e5 hakket dyrek\u00f8d med selleri, svampe, rosmarin samt r\u00f8dk\u00e5lssalat"
+                },
+                "vegetarian": {
+                    "da": "Efter\u00e5rs gr\u00f8nsagst\u00e6rte med comte ost"
+                },
+                "salad": {
+                    "da": "Fennikelsalat med rejer, citron, radicchio, agurk, dild og r\u00f8get laks"
+                }
+            }
+        }
+    },
+    "canteens": {
+        "4DFB931D-0313-4A89-ADB1-2DC145E73052": {
+            "name": "Midtown",
+            "location": "A7398933-C27C-46C6-BEB8-5C06B54DC8E7",
+            "menu": {
+                "da": "http://dk20.eurest.dk/midtown/ugemenu",
+                "en": "http://dk20.eurest.dk/midtown/menu-of-the-week"
+            }
+        },
+        "7F003F9E-9316-498C-8FD5-D6EF2CDAC3D8": {
+            "name": "Rugmarken",
+            "location": "A7398933-C27C-46C6-BEB8-5C06B54DC8E7",
+            "menu": {
+                "da": "http://dk20.eurest.dk/rugmarken/ugemenu",
+                "en": "http://dk20.eurest.dk/rugmarken/weekmenu"
+            }
+        },
+        "150FA365-D8FF-4098-B4CB-E90BE62E99C4": {
+            "name": "Kornmarken",
+            "location": "A7398933-C27C-46C6-BEB8-5C06B54DC8E7",
+            "menu": {
+                "da": "http://dk20.eurest.dk/kornmarken/ugemenu",
+                "en": "http://dk20.eurest.dk/kornmarken/weekmenu"
+            }
+        },
+        "827F4014-C751-4D53-B500-1CEEB78BA0C6": {
+            "name": "Havremarken",
+            "location": "A7398933-C27C-46C6-BEB8-5C06B54DC8E7",
+            "menu": {
+                "da": "http://dk20.eurest.dk/havremarken/ugemenu",
+                "en": "http://dk20.eurest.dk/havremarken/weekmenu"
+            }
+        },
+        "54C32E6E-A9D8-437A-B511-E5A0E4DF515D": {
+            "name": "MultiHuset",
+            "location": "A7398933-C27C-46C6-BEB8-5C06B54DC8E7",
+            "menu": {
+                "da": "http://dk20.eurest.dk/multihuset/ugemenu",
+                "en": "http://dk20.eurest.dk/multihuset/weekmenu"
+            }
+        },
+        "265D218A-3AE8-42AF-AA9D-34ADCF552A69": {
+            "name": "Aastvej",
+            "location": "A7398933-C27C-46C6-BEB8-5C06B54DC8E7",
+            "menu": {
+                "da": "http://dk20.eurest.dk/aastvej/ugemenu",
+                "en": "http://dk20.eurest.dk/aastvej/weekmenu"
+            }
+        },
+        "87ACD5FA-2E3F-45AD-AC64-827952E06558": {
+            "name": "Modulex",
+            "location": "A7398933-C27C-46C6-BEB8-5C06B54DC8E7",
+            "menu": {
+                "da": "http://dk20.eurest.dk/modulex/ugemenu",
+                "en": "http://dk20.eurest.dk/modulex/weekmenu"
+            }
+        }
+    },
+    "locations": {
+        "A7398933-C27C-46C6-BEB8-5C06B54DC8E7": {
+            "name": "Billund"
+        }
+    }
+}
