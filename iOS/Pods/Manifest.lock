@@ -1,12 +1,12 @@
 PODS:
-  - Realm (2.6.1):
-    - Realm/Headers (= 2.6.1)
-  - Realm/Headers (2.6.1)
-  - RealmSwift (2.6.1):
-    - Realm (= 2.6.1)
-  - RxCocoa (3.4.0):
+  - Realm (2.7.0):
+    - Realm/Headers (= 2.7.0)
+  - Realm/Headers (2.7.0)
+  - RealmSwift (2.7.0):
+    - Realm (= 2.7.0)
+  - RxCocoa (3.4.1):
     - RxSwift (~> 3.4)
-  - RxSwift (3.4.0)
+  - RxSwift (3.4.1)
   - RxSwiftExt (2.4.1):
     - RxSwiftExt/Core (= 2.4.1)
   - RxSwiftExt/Core (2.4.1):
@@ -19,10 +19,10 @@ DEPENDENCIES:
   - RxSwiftExt
 
 SPEC CHECKSUMS:
-  Realm: 9abfd4f87519376daa5ae3a4603155de408bf8b3
-  RealmSwift: a54d3e8931cf7d3afa5a1fac9c8f88109d7f02b3
-  RxCocoa: d14ef6b6029e1ddc6e966508c09289090de68ff9
-  RxSwift: 3789a1af753002a14edecdb698a2424624296a9c
+  Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
+  RealmSwift: 6d06425d3900c86473c4f323bf6949b43fca22bc
+  RxCocoa: a8a5f1d061d0043e28f56976829f31ce63e8eb09
+  RxSwift: 656f8fbeca5bc372121a72d9ebdd3cd3bc0ffade
   RxSwiftExt: 72278e4a84f35324a82a8dd359859782706576a6
 
 PODFILE CHECKSUM: 154e1b02dcf9eb4e69619104446cfed17160580b

@@ -12,6 +12,7 @@
 		C52EA1241EDB721800824802 /* LunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52EA11E1EDB721800824802 /* LunchView.swift */; };
 		C52EA1251EDB721800824802 /* LunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52EA1201EDB721800824802 /* LunchViewModel.swift */; };
 		C52EA1261EDB721800824802 /* Canteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52EA1221EDB721800824802 /* Canteen.swift */; };
+		C52EA1291EDC9F4900824802 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52EA1281EDC9F4900824802 /* AppCoordinator.swift */; };
 		C5A93F601D7AF532006FF477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A93F5F1D7AF532006FF477 /* AppDelegate.swift */; };
 		C5A93F671D7AF532006FF477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A93F661D7AF532006FF477 /* Assets.xcassets */; };
 		C5A93F6A1D7AF532006FF477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A93F681D7AF532006FF477 /* LaunchScreen.storyboard */; };
@@ -27,6 +28,7 @@
 		C52EA11E1EDB721800824802 /* LunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchView.swift; sourceTree = "<group>"; };
 		C52EA1201EDB721800824802 /* LunchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchViewModel.swift; sourceTree = "<group>"; };
 		C52EA1221EDB721800824802 /* Canteen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canteen.swift; sourceTree = "<group>"; };
+		C52EA1281EDC9F4900824802 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		C5A93F5C1D7AF532006FF477 /* Fraakost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraakost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A93F5F1D7AF532006FF477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5A93F661D7AF532006FF477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		C52EA1271EDC9F3F00824802 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				C52EA1281EDC9F4900824802 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		C5A93F531D7AF531006FF477 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 		C5A93F5E1D7AF532006FF477 /* Fraakost */ = {
 			isa = PBXGroup;
 			children = (
+				C52EA1271EDC9F3F00824802 /* Coordinators */,
 				C52EA1211EDB721800824802 /* Models */,
 				C52EA11F1EDB721800824802 /* ViewModels */,
 				C52EA11B1EDB721800824802 /* Views */,
@@ -258,6 +269,7 @@
 				C52EA1251EDB721800824802 /* LunchViewModel.swift in Sources */,
 				C5F7A2141E50B1920099007B /* Webservice.swift in Sources */,
 				C52EA1261EDB721800824802 /* Canteen.swift in Sources */,
+				C52EA1291EDC9F4900824802 /* AppCoordinator.swift in Sources */,
 				C52EA1231EDB721800824802 /* LunchViewController.swift in Sources */,
 				C5A93F601D7AF532006FF477 /* AppDelegate.swift in Sources */,
 				C5F7A2161E50B2630099007B /* Resource.swift in Sources */,

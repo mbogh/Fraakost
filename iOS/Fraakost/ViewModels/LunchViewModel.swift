@@ -9,13 +9,13 @@
 import Foundation
 
 struct LunchViewModel {
-    private let lunch: Lunch
-    let title: String
-
-    init(lunch: Lunch) {
-        self.lunch = lunch
-        self.title = LunchViewModel.dateFormatter.string(from: lunch.date)
-    }
+//    private let lunch: Lunch
+//    let title: String
+//
+//    init(lunch: Lunch) {
+//        self.lunch = lunch
+//        self.title = LunchViewModel.dateFormatter.string(from: lunch.date)
+//    }
 }
 
 extension LunchViewModel {
