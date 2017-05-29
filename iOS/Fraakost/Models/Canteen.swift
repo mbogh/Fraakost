@@ -18,23 +18,16 @@ class Canteen: Object {
     }
 }
 
-//extension Canteen {
-//    init?(dictionary: JSONDictionary) {
-//        guard let id = dictionary["id"] as? String,
-//            let name = dictionary["name"] as? String,
-//            let address = dictionary["address"] as? String else { return nil }
-//        self.id = id
-//        self.name = name
-//        self.address = address
-//    }
-//}
-//
-//extension Canteen {
-//    static var all: Resource<[Canteen]> {
-//        let url = URL(string: "https://7imuq0gblk.execute-api.us-west-2.amazonaws.com/production/canteens")!
-//        return Resource<[Canteen]>(url: url, parseJSON: { json in
-//            guard let dictionaries = json as? [JSONDictionary] else { return nil }
-//            return dictionaries.flatMap(Canteen.init)
-//        })
-//    }
-//}
+extension Canteen {
+    convenience init?(dictionary: JSONDictionary) {
+        guard let id = dictionary["id"] as? String,
+            let name = dictionary["name"] as? String,
+            let address = dictionary["address"] as? String else { return nil }
+
+        self.init()
+        
+        self.id = id
+        self.name = name
+        self.address = address
+    }
+}
