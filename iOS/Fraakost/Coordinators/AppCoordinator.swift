@@ -12,16 +12,28 @@ import RealmSwift
 final class AppCoordinator {
     private let navigationController: UINavigationController
     private let realm = try! Realm()
+    private let webservice: Webservice
 
-    init(navigationController: UINavigationController) {
+    init(navigationController: UINavigationController, webservice: Webservice = Webservice()) {
         self.navigationController = navigationController
+        self.webservice = webservice
     }
 
     func start() {
-        createdTestDataIfNeeded()
+        fetchCanteens()
 
         let lunchViewController = LunchViewController()
         navigationController.pushViewController(lunchViewController, animated: false)
+    }
+
+    func fetchCanteens() {
+        webservice.load(resource: Canteen.all) { canteens in
+            guard let canteens = canteens else { return }
+            guard let realm = try? Realm() else { return }
+            try? realm.write {
+                realm.add(canteens, update: true)
+            }
+        }
     }
 
     func createdTestDataIfNeeded() {

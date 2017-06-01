@@ -11,6 +11,7 @@ import RealmSwift
 
 class LunchViewController: UIViewController {
     var viewModel: LunchViewModel!
+    let canteenView = CurrentCanteenView()
     let lunchView = LunchView()
 
     override func loadView() {
@@ -19,17 +20,23 @@ class LunchViewController: UIViewController {
 
     func setupView() -> UIView {
         let view = UIView()
-        view.backgroundColor = .orange
+        view.backgroundColor = .white
+        canteenView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(canteenView)
         lunchView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(lunchView)
         return view
     }
 
     func setupConstraints() {
-        lunchView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -12).isActive = true
-        lunchView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 12).isActive = true
+        canteenView.topAnchor.constraint(equalTo: topLayoutGuide.bottomAnchor).isActive = true
+        canteenView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        canteenView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
 
-        lunchView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        lunchView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -16).isActive = true
+        lunchView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 16).isActive = true
+
+        lunchView.topAnchor.constraint(equalTo: canteenView.bottomAnchor, constant: 16).isActive = true
     }
 
     override func viewDidLoad() {

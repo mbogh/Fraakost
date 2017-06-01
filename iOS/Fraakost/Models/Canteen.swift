@@ -31,3 +31,13 @@ extension Canteen {
         self.address = address
     }
 }
+
+extension Canteen {
+    static var all: Resource<[Canteen]> {
+        let url = URL(string: "https://7imuq0gblk.execute-api.us-west-2.amazonaws.com/production/canteens")!
+        return Resource<[Canteen]>(url: url, parseJSON: { json in
+            guard let dictionaries = json as? [JSONDictionary] else { return nil }
+            return dictionaries.flatMap(Canteen.init)
+        })
+    }
+}
