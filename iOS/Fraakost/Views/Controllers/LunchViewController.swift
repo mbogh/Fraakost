@@ -8,11 +8,17 @@
 
 import UIKit
 import RealmSwift
+import RxCocoa
 
-class LunchViewController: UIViewController {
+protocol LunchViewControllerDelegate: class {
+    func lunchViewControllerDidTapCanteens(_ lunchViewController: LunchViewController)
+}
+
+final class LunchViewController: UIViewController {
+    weak var delegate: LunchViewControllerDelegate?
     var viewModel: LunchViewModel!
-    let canteenView = CurrentCanteenView()
-    let lunchView = LunchView()
+    private let canteenView = CurrentCanteenView()
+    private let lunchView = LunchView()
 
     override func loadView() {
         self.view = setupView()
@@ -43,6 +49,12 @@ class LunchViewController: UIViewController {
         super.viewDidLoad()
 
         setupConstraints()
+
+        let tapGestureRecognizer = UITapGestureRecognizer()
+        tapGestureRecognizer.rx.event.subscribe(onNext: { _ in
+            self.delegate?.lunchViewControllerDidTapCanteens(self)
+        })
+        canteenView.addGestureRecognizer(tapGestureRecognizer)
 
         // Get the default Realm
         let realm = try! Realm()
